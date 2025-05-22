@@ -18,8 +18,8 @@ namespace Script
     {
         [Header("Appliance Properties")]
         [SerializeField] private string applianceName;
-        [SerializeField] private ApplianceCategory applianceCategory;
-        [SerializeField] private float powerInWatts;
+        public ApplianceCategory applianceCategory;
+        public float powerInWatts;
         [SerializeField] private TMP_Text _currentEnergyText;
         [SerializeField] private TMP_Text _applianceNameText;
         [SerializeField] private TMP_Text _powerText;

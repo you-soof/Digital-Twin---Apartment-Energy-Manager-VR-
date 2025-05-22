@@ -5,6 +5,25 @@ TagManager:
   serializedVersion: 2
   tags:
   - OpenHand
+  - QDSUIToggleButton
+  - QDSUIBackplateGradient
+  - QDSUIIcon
+  - QDSUITextSecondaryColor
+  - QDSUITooltip
+  - QDSUIToggleBorderlessButton
+  - QDSUIToggleSwitch
+  - QDSUISharedThemeColor
+  - QDSUIAccentColor
+  - QDSUIDestructiveButton
+  - QDSUISecondaryButton
+  - QDSUIPrimaryButton
+  - QDSUITextInvertedColor
+  - QDSUITextSecondaryInvertedColor
+  - Light
+  - Circulation
+  - Computer
+  - Others
+  - HeatCool
   layers:
   - Default
   - TransparentFX

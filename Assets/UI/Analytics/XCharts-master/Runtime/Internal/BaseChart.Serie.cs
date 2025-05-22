@@ -339,7 +339,8 @@ namespace XCharts.Runtime
             var serie = GetSerie(serieIndex);
             if (serie != null)
             {
-                var serieData = serie.AddData(multidimensionalData);
+                var dataList = new List<double>(multidimensionalData);  // Convert array to List
+                var serieData = serie.AddData(dataList);
                 RefreshPainter(serie.painter);
                 return serieData;
             }
@@ -359,7 +360,8 @@ namespace XCharts.Runtime
             var serie = GetSerie(serieName);
             if (serie != null)
             {
-                var serieData = serie.AddData(multidimensionalData);
+                var dataList = new List<double>(multidimensionalData);  // Convert array to List
+                var serieData = serie.AddData(dataList);
                 RefreshPainter(serie.painter);
                 return serieData;
             }

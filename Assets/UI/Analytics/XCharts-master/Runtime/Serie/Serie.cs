@@ -1484,9 +1484,10 @@ namespace XCharts.Runtime
         /// <summary>
         /// 添加任意维数据到系列中。
         /// </summary>
+        /// <param name="indexOrTimestamp"></param>
         /// <param name="values">任意维数据</param>
         /// <returns></returns>
-        public SerieData AddData(params double[] values)
+        public SerieData AddData(string indexOrTimestamp, params double[] values)
         {
             if (values == null || values.Length == 0) return null;
             string dataName = null;
